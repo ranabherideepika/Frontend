@@ -1,0 +1,34 @@
+/* TYPE ELEMENT*/
+h3{
+    color: lightgreen;
+}
+/*CLASS SELECTOR*/
+.highlight{
+    color:red;
+}
+/*ID SELECTOR*/
+#title{
+    color: chartreuse;
+}
+/* UNIVERSAL SELECTOR */
+*{
+    background-color: burlywood;
+}
+/* DESCENDENT SELECTOR */
+div p{
+    color: crimson;
+    background-color: antiquewhite;
+    padding: 5px;
+}
+/* CHILD SELECTOR */
+div>h2{
+    color: darkmagenta;
+}
+/* ATTRIBUTE SELECTOR */
+input[type="email"]{
+    color: darkorange;
+}
+/* GROUPING SELECTOR */
+h1,h2,h3{
+    padding:50px;
+}
